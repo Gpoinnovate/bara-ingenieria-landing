@@ -1,0 +1,139 @@
+*{
+text-decoration: none !important;
+outline: 0 !important;
+}
+.row {
+  margin: 0 !important;
+  padding: 0;
+}
+body {
+-webkit-font-smoothing: antialiased;
+background: url(../images/bg.jpg);
+background-size: cover;
+height: 100vh;
+padding: 40px 0;
+}
+::selection {
+     color:#fff;
+     background:#20609f;
+}
+body .col-md-7 {
+  padding: 0;
+}
+body .col-md-7 img{
+  width: 250px;
+}
+.logo{
+  margin-bottom: 100px;
+}
+.container-in {
+  max-width: 1200px;
+  margin: auto;
+}
+.container-in h1{
+  color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+}
+.container-in h2{
+  color: #c3c3c3;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: italic;
+  margin-top: 35px;
+}
+body .col-md-7 a{
+  background: #1c7ef2;
+  padding: 10px 50px;
+  display: inline-block;
+  color: #fff;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-top: 50px;
+  transition: all 0.3s ease;
+ -webkit-transition: all 0.3s ease;
+ -moz-transition: all 0.3s ease;
+ -o-transition: all 0.3s ease;
+ -ms-transition: all 0.3s ease;
+}
+body .col-md-7 a:hover{
+  background: #fff;
+  color:#1c7ef2;
+  transition: all 0.3s ease;
+ -webkit-transition: all 0.3s ease;
+ -moz-transition: all 0.3s ease;
+ -o-transition: all 0.3s ease;
+ -ms-transition: all 0.3s ease;
+}
+.box-form{
+  padding: 30px;
+  background: rgba(4,144,195,1);
+background: -moz-linear-gradient(top, rgba(4,144,195,1) 0%, rgba(2,89,147,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(4,144,195,1)), color-stop(100%, rgba(2,89,147,1)));
+background: -webkit-linear-gradient(top, rgba(4,144,195,1) 0%, rgba(2,89,147,1) 100%);
+background: -o-linear-gradient(top, rgba(4,144,195,1) 0%, rgba(2,89,147,1) 100%);
+background: -ms-linear-gradient(top, rgba(4,144,195,1) 0%, rgba(2,89,147,1) 100%);
+background: linear-gradient(to bottom, rgba(4,144,195,1) 0%, rgba(2,89,147,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0490c3', endColorstr='#025993', GradientType=0 );
+}
+
+.box-form .col-md-12{
+  margin-bottom: 20px;
+}
+.box-form .send button{
+  background: #7ed321;
+  padding: 10px 50px;
+  display: inline-block;
+  color: #fff;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-top: 0px;
+  border: none;
+  transition: all 0.3s ease;
+ -webkit-transition: all 0.3s ease;
+ -moz-transition: all 0.3s ease;
+ -o-transition: all 0.3s ease;
+ -ms-transition: all 0.3s ease;
+}
+.box-form .send button:hover{
+  background: #fff;
+  color: #7ed321;
+  transition: all 0.3s ease;
+ -webkit-transition: all 0.3s ease;
+ -moz-transition: all 0.3s ease;
+ -o-transition: all 0.3s ease;
+ -ms-transition: all 0.3s ease;
+}
+body .col-md-5{
+  padding-left: 80px;
+  padding-top: 50px;
+  padding-right: 0;
+}
+body .col-md-5 p{
+  color: #fff;
+  font-weight: 300;
+  font-size: 16px;
+}
+.p0{
+  padding: 0;
+}
+.creditos{
+  color: #fff;
+  font-size: 12px;
+}
+.creditos a{
+  color: #bbb;
+  transition: all 0.3s ease;
+ -webkit-transition: all 0.3s ease;
+ -moz-transition: all 0.3s ease;
+ -o-transition: all 0.3s ease;
+ -ms-transition: all 0.3s ease;
+}
+.creditos a:hover{
+  color: #fff;
+  transition: all 0.3s ease;
+ -webkit-transition: all 0.3s ease;
+ -moz-transition: all 0.3s ease;
+ -o-transition: all 0.3s ease;
+ -ms-transition: all 0.3s ease;
+}
